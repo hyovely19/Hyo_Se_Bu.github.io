@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="dashboard-container">
         <!-- 헤더 영역 -->
@@ -18,13 +20,13 @@
 
         <!-- 메인 콘텐츠 영역 (3단 레이아웃) -->
         <main class="dashboard-content">
-            
+
             <!-- 상단 요약 카드 섹션 -->
             <section class="top-section">
                 <!-- 매매 카드 -->
                 <div class="index-card">
                     <div class="card-header">
-                        <h2>매매 (Trading)</h2>
+                        <h2>매매</h2>
                         <span class="trend-icon up">▲</span>
                     </div>
                     <div class="card-body">
@@ -36,7 +38,7 @@
                 <!-- 전세 카드 -->
                 <div class="index-card">
                     <div class="card-header">
-                        <h2>전세 (Jeonse)</h2>
+                        <h2>전세</h2>
                         <span class="trend-icon up steep">▲</span>
                     </div>
                     <div class="card-body">
@@ -48,7 +50,7 @@
                 <!-- 월세 카드 -->
                 <div class="index-card">
                     <div class="card-header">
-                        <h2>월세 (Monthly Rent)</h2>
+                        <h2>월세</h2>
                         <span class="trend-icon up">▲</span>
                     </div>
                     <div class="card-body">
@@ -73,7 +75,7 @@
 
             <!-- 하단 인포그래픽 박스 (토지 / 심리) -->
             <section class="bottom-section">
-                 <div class="info-card">
+                <div class="info-card">
                     <div class="card-header">
                         <h2>토지 거래 지표</h2>
                     </div>
@@ -97,7 +99,7 @@
                 </div>
             </section>
         </main>
-        
+
         <!-- 우측 사이드바 -->
         <aside class="right-sidebar">
             <!-- 전세가율 도넛 차트 -->
@@ -127,17 +129,17 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- 심리 온도계 -->
             <div class="sidebar-card thermometer-card">
-                 <h2>시장 심리 (온도계)</h2>
-                 <div class="thermometer-container">
-                     <div class="thermometer-stem">
-                         <div class="thermometer-fluid" style="height: 40%;"></div>
-                     </div>
-                     <div class="thermometer-bulb"></div>
-                 </div>
-                 <div class="thermometer-status">다소 냉각됨</div>
+                <h2>시장 심리 (온도계)</h2>
+                <div class="thermometer-container">
+                    <div class="thermometer-stem">
+                        <div class="thermometer-fluid" style="height: 40%;"></div>
+                    </div>
+                    <div class="thermometer-bulb"></div>
+                </div>
+                <div class="thermometer-status">다소 냉각됨</div>
             </div>
         </aside>
 
@@ -147,4 +149,5 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
