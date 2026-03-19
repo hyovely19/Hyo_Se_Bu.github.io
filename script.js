@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const dataJeonse = dashboardData ? dashboardData.indices.jeonse : [100.5, 101.2, 102.1, 103.0, 103.8, 104.5, 105.2, 106.0, 106.55];
     const dataTrading = dashboardData ? dashboardData.indices.trading : [100.2, 100.5, 100.8, 101.4, 101.6, 102.0, 102.3, 102.7, 102.94];
     const dataRent = dashboardData ? dashboardData.indices.rent : [100.0, 100.3, 100.7, 101.1, 101.5, 102.0, 102.5, 102.8, 103.39];
-    const labels = dashboardData ? dashboardData.indices.months : ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월'];
+    const labels = dashboardData ? dashboardData.indices.months : ['6월', '7월', '8월', '9월', '10월', '11월', '12월', '1월', '2월'];
     const jeonseRatioValue = dashboardData ? dashboardData.jeonse_ratio : 49.9;
 
     // 상단 요약 카드 수치 업데이트 (DOM 조작)
