@@ -65,10 +65,17 @@ body {
     color: var(--text-primary);
 }
 
+.header-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
 .dashboard-header .subtitle {
     font-size: 1.1rem;
     color: var(--text-secondary);
-    margin-top: 8px;
+    margin-top: 0;
 }
 
 .update-date {
@@ -82,7 +89,7 @@ body {
 .data-source {
     font-size: 0.9rem;
     color: var(--grey-medium);
-    margin-top: 8px;
+    margin-top: 0;
     font-weight: 500;
 }
 
