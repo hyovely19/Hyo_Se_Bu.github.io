@@ -71,6 +71,21 @@ body {
     margin-top: 8px;
 }
 
+.update-date {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.data-source {
+    font-size: 0.9rem;
+    color: var(--grey-medium);
+    margin-top: 8px;
+    font-weight: 500;
+}
+
 /* 메인 콘텐츠 영역 */
 .dashboard-content {
     display: flex;
